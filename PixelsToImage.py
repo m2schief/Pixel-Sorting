@@ -80,8 +80,26 @@ def RandomToImage(im):
     return PixelsToImage(rIm, im)
 
 if __name__ == "__main__":
-    im = Image.open("lorikeet1000.jpg")
-    im2 = Image.open("color_spiral.jpg")
 
-    rIm = PixelsToImage(im, im2)
-    rIm.show()
+    lorikeet = Image.open("lorikeet1000.jpg")
+    landscapeGrey = Image.open("landscape1000.jpg")
+    landscapeGreen = Image.open("landscape2.jpg")
+    edinburgh = Image.open("edinburgh.jpg")
+    color_spiral = Image.open("color_spiral.jpg")
+    flowers = Image.open("flowers1000.jpg")
+
+    rLorikeet = RandomToImage(lorikeet)
+    rLorikeet = rLorikeet.save("Lorikeet_From_Random.jpg")
+
+    rFlowers = RandomToImage(flowers)
+    rFlowers = rFlowers.save("Flowers_From_Random.jpg")
+
+    rEdinburgh = RandomToImage(edinburgh)
+    rEdinburgh = rEdinburgh.save("Edinburgh_From_Random.jpg")
+
+    landscape_combined = PixelsToImage(landscapeGreen, landscapeGrey)
+    landscape_combined = landscape_combined.save("landscape1000_from_2.jpg")
+
+    cSpiral_lorikeet = PixelsToImage(lorikeet, color_spiral)
+    cSpiral_lorikeet = cSpiral_lorikeet.save("Color_Spiral_from_Lorikeet.jpg")
+
