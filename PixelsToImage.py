@@ -89,17 +89,17 @@ if __name__ == "__main__":
     flowers = Image.open("flowers1000.jpg")
 
     rLorikeet = RandomToImage(lorikeet)
-    rLorikeet = rLorikeet.save("Lorikeet_From_Random.jpg")
+    rLorikeet = rLorikeet.save("Lorikeet_From_Random.bmp")
 
     rFlowers = RandomToImage(flowers)
-    rFlowers = rFlowers.save("Flowers_From_Random.jpg")
+    rFlowers = rFlowers.save("Flowers_From_Random.bmp")
 
     rEdinburgh = RandomToImage(edinburgh)
-    rEdinburgh = rEdinburgh.save("Edinburgh_From_Random.jpg")
+    rEdinburgh = rEdinburgh.save("Edinburgh_From_Random.bmp")
 
     landscape_combined = PixelsToImage(landscapeGreen, landscapeGrey)
-    landscape_combined = landscape_combined.save("landscape1000_from_2.jpg")
+    landscape_combined = landscape_combined.save("landscape1000_from_2.bmp")
 
     cSpiral_lorikeet = PixelsToImage(lorikeet, color_spiral)
-    cSpiral_lorikeet = cSpiral_lorikeet.save("Color_Spiral_from_Lorikeet.jpg")
+    cSpiral_lorikeet = cSpiral_lorikeet.save("Color_Spiral_from_Lorikeet.bmp")
 
