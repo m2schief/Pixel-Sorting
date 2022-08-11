@@ -80,8 +80,8 @@ def RandomToImage(im):
     return PixelsToImage(rIm, im)
 
 if __name__ == "__main__":
-    im = Image.open("color_spiral.jpg")
-    im2 = Image.open("lorikeet1000.jpg")
+    im = Image.open("lorikeet1000.jpg")
+    im2 = Image.open("color_spiral.jpg")
 
     rIm = PixelsToImage(im, im2)
     rIm.show()
