@@ -14,6 +14,7 @@ The sorting methods for the array are based off the interpretation that the firs
 ###### Simple Sort
 
 The first sorting method is done in the simplest way. The array is first sorted solely by y-values, and then subsequently sorts the rows by x-values.  
+
 ![Randomly Generated TwoArray Data](/README_Images/TwoArray_Demo0.png)  
 -  
 ![Above Data Sorted Into Rows](/README_Images/TwoArray_Demo1.png)  
@@ -36,6 +37,7 @@ The ThreeArray class is found in the Arrays.py file. It takes a list of tuples o
 The ThreeArray is the natural extension of the TwoArray, treating the data as a 3d object:  
 
 Again, here is a sorting demonstration:  
+
 ![ThreeArray Data](/README_Images/ThreeArray_PreSort.png)  
 -  
 ![ThreeArray Data Sorted](/README_Images/ThreeArray_PostSort.png)
