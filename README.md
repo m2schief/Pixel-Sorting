@@ -5,7 +5,7 @@ The following is a simple python project done primarily to demonstrate a degree 
 ### TwoArray
 
 The TwoArray class is found in the Arrays.py file. It takes a list of tuples of length two, a width, and a height.  
-The provided methods are related to the interpretation of the data as a two-dimensional array. The TwoArray can be outputed to demonstrate this:
+The provided methods are related to the interpretation of the data as a two-dimensional array. The TwoArray can be outputed to demonstrate this:  
 ![TwoArray Data](/README_Images/TwoArray_PreSort.png)
 
 The sorting methods for the array are based off the interpretation that the first value of the tuple corresponds to the x-axis, and the second value corresponds to the y-axis. Here is the above array sorted (same output for both methods):  
@@ -15,7 +15,9 @@ The sorting methods for the array are based off the interpretation that the firs
 
 The first sorting method is done in the simplest way. The array is first sorted solely by y-values, and then subsequently sorts the rows by x-values.  
 ![Randomly Generated TwoArray Data](/README_Images/TwoArray_Demo0.png)  
+-  
 ![Above Data Sorted Into Rows](/README_Images/TwoArray_Demo1.png)  
+-  
 ![Above Data with Rows Sorted](/README_Images/TwoArray_Demo2.png)
 
 
@@ -35,6 +37,7 @@ The ThreeArray is the natural extension of the TwoArray, treating the data as a 
 
 Again, here is a sorting demonstration:  
 ![ThreeArray Data](/README_Images/ThreeArray_PreSort.png)  
+-  
 ![ThreeArray Data Sorted](/README_Images/ThreeArray_PostSort.png)
 
 ##### Three-Dimensional Sorting
