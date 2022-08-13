@@ -1,5 +1,5 @@
 import random
-from PIL import Image, ImageCms
+from PIL import Image
 from Arrays import *
 random.seed(139381512)
 
